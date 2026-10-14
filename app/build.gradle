@@ -1,6 +1,16 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
+
 android {
     namespace "com.johnnydev.aicaller"
     compileSdk 34
-    defaultConfig { applicationId "com.johnnydev.aicaller"; minSdk 31; targetSdk 34; versionCode 1; versionName "1.0" }
+
+    defaultConfig {
+        applicationId "com.johnnydev.aicaller"
+        minSdk 31
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
 }
